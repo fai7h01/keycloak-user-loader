@@ -2,12 +2,12 @@ server:
   port: 9090
 
 keycloak:
-  realm: cydeo-dev
+  realm: e-invoices
   auth-server-url: http://localhost:8080/auth
   ssl-required: none
-  resource: ticketing-app
+  resource: invoicing-app
   credentials:
-    secret: SXIvIL7Ze5DGsFrvnkVCsubZckxqb7Ee
+    secret: bFWgazKZHLiMdCqjhx2U2dZx8eOyJ67d
   use-resource-role-mappings: true
   bearer-only: true
 

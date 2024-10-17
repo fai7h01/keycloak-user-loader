@@ -1,5 +1,5 @@
 INSERT INTO users(insert_date_time, insert_user_id, last_update_date_time, last_update_user_id, is_deleted,
-                  first_name, last_name, user_name, password, enabled, phone, gender, role_id)
+                  first_name, last_name, username, password, enabled, phone, gender, role_id)
 VALUES ('2022-01-05 00:00:00', 1, '2022-01-05 00:00:00', 1, false, 'Harold', 'Finch', 'haroldfinch@email.com', 'Abc1', true, '0123456789', 'MALE', 1),
        ('2022-01-05 00:00:00', 1, '2022-01-05 00:00:00', 1, false, 'John', 'Reese', 'johnreese@email.com', 'Abc1', true, '9876543210', 'MALE', 2),
        ('2022-01-05 00:00:00', 1, '2022-01-05 00:00:00', 1, false, 'Lionel', 'Fusco', 'lionelfusco@email.com', 'Abc1', true, '0987612345', 'MALE', 3),
